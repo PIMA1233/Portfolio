@@ -1,0 +1,37 @@
+nav {
+    z-index: 99;
+    color: #006cf0;
+}
+
+.skill-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
+}
+.carousel-item img {
+    height: 100vh;
+}
+
+.sort-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    border-top: 1px solid #dddddd;
+}
+
+.nav-item .nav-link:hover {
+    color: white;
+}
+
+.carousel-item img {
+    opacity: 60%;
+}
+.carousel-item h2 {
+    color: black;
+    font-size: 60px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}

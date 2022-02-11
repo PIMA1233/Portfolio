@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>유연길의 포트폴리오</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark position-fixed w-100">
+            <a class="navbar-brand">SSAFY 7th 예비 개발자 이야기</a>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active fw-bolder" href="#main-part">Main</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-bolder" href="#about-part">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-bolder" href="#language-part">Skill</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-bolder" href="#stack-part">Stack</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-bolder" href="#closing-part">Closing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-bolder" href="https://pima1233.github.io/Project/">Project</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="main-part" class="pt-5" style="min-height: 100%;">
+            <div id="carouselExampleIndicators" class="carousel slide w-100 m-auto" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./image/main1.jpg" class="d-block w-100" alt="메인페이지 첫번째 사진">
+                        <div class="carousel-caption h-50 d-md-block fw-bolder">
+                            <h2>저는 SSAFY 임베디드반 출신 개발자<br>유연길 입니다.</h2>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./image/main2.jpg" class="d-block w-100" alt="메인페이지 두번째 사진">
+                        <div class="carousel-caption h-50 d-md-block fw-bolder">
+                            <h2>대학교를 졸업한지 얼마안된<br>개발자가 꿈인 취준생 얘기입니다.</h2>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./image/main3.jpg" class="d-block w-100" alt="메인페이지 세번째 사진">
+                        <div class="carousel-caption h-50 d-md-block fw-bolder">
+                            <h2>그런 취준생이 SSAFY에 지원하게 되는데...</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section id="about-part" class="pt-5" style="min-height: 100%;">
+            <div class="h1 bg-warning p-4 text-white text-center w-100">
+                About Me
+            </div>
+            <div class="card mx-auto mt-4" style="width: 18rem;">
+                <img src="./image/profile.jpg" class="card-img-top" alt="유연길 프로필 사진">
+                <div class="card-body">
+                    <h5 class="card-title">Card Title</h5>
+                    <p class="card-text">SSAFY 7th Program Beginner</p>
+                    <a href="#" class="btn btn-primary">Go SomeWhere</a>
+                </div>
+            </div>
+
+            <div class="mt-5 text-center">
+                안녕하세요. SSAFY 7th에 지원하게 된 초보 개발자 유연길입니다.<br />
+                재미있는 프로그램 개발 수업 듣고 함께 수료해요.
+            </div>
+
+            <ul class="list-group list-group-flush w-50 m-auto">
+                <li class="list-group-item bg-light">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="green">
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path
+                            d="M6.54 5c.06.89.21 1.76.45 2.59l-1.2 1.2c-.41-1.2-.67-2.47-.76-3.79h1.51m9.86 12.02c.85.24 1.72.39 2.6.45v1.49c-1.32-.09-2.59-.35-3.8-.75l1.2-1.19M7.5 3H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.49c0-.55-.45-1-1-1-1.24 0-2.45-.2-3.57-.57-.1-.04-.21-.05-.31-.05-.26 0-.51.1-.71.29l-2.2 2.2c-2.83-1.45-5.15-3.76-6.59-6.59l2.2-2.2c.28-.28.36-.67.25-1.02C8.7 6.45 8.5 5.25 8.5 4c0-.55-.45-1-1-1z" />
+                    </svg>
+                    <span>
+                        010-1234-5678
+                    </span>
+                </li>
+                <li class="list-group-item bg-light">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="black">
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zM7.07 18.28c.43-.9 3.05-1.78 4.93-1.78s4.51.88 4.93 1.78C15.57 19.36 13.86 20 12 20s-3.57-.64-4.93-1.72zm11.29-1.45c-1.43-1.74-4.9-2.33-6.36-2.33s-4.93.59-6.36 2.33C4.62 15.49 4 13.82 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8c0 1.82-.62 3.49-1.64 4.83zM12 6c-1.94 0-3.5 1.56-3.5 3.5S10.06 13 12 13s3.5-1.56 3.5-3.5S13.94 6 12 6zm0 5c-.83 0-1.5-.67-1.5-1.5S11.17 8 12 8s1.5.67 1.5 1.5S12.83 11 12 11z" />
+                    </svg>
+                    <span>
+                        ryh1999@naver.com
+                    </span>
+                </li>
+                <li class="list-group-item bg-light">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
+                        fill="orange">
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path d="M12 5.69l5 4.5V18h-2v-6H9v6H7v-7.81l5-4.5M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3z" />
+                    </svg>
+                    <span>
+                        경상북도 포항시 남구 연일읍 유강
+                    </span>
+                </li>
+                <li class="list-group-item bg-light">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="blue">
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path
+                            d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95c-.32-1.25-.78-2.45-1.38-3.56 1.84.63 3.37 1.91 4.33 3.56zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2s.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56-1.84-.63-3.37-1.9-4.33-3.56zm2.95-8H5.08c.96-1.66 2.49-2.93 4.33-3.56C8.81 5.55 8.35 6.75 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2s.07-1.35.16-2h4.68c.09.65.16 1.32.16 2s-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95c-.96 1.65-2.49 2.93-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2s-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z" />
+                    </svg>
+                    <span>
+                        naver.myBlog.com
+                    </span>
+                </li>
+                <li class="list-group-item bg-light">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="red">
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path
+                            d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z" />
+                    </svg>
+                    <span>
+                        대학교(4년제) 졸업
+                    </span>
+                </li>
+            </ul>
+        </section>
+        <section id="language-part" class="pt-5" style="min-height: 100%;">
+            <div class="h1 bg-warning p-4 text-white text-center w-100">
+                Program Skill
+            </div>
+
+            <ul class="w-75 mx-auto skill-list">
+                <h2 class="p-4">Program Language</h2>
+                <li class="list-group-item d-flex align-items-center p-4">
+                    <div class="w-25">C</div>
+                    <div class="progress w-50">
+                        <div class="progress-bar progress-bar progress-bar-striped progress-bar-animated"
+                            role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                            style="width: 90%;"></div>
+                    </div>
+                    <div class="w-25 text-center">90%</div>
+                </li>
+                <li class="list-group-item d-flex align-items-center p-4">
+                    <div class="w-25">C++</div>
+                    <div class="progress w-50">
+                        <div class="progress-bar progress-bar progress-bar-striped progress-bar-animated"
+                            role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                            style="width: 65%;"></div>
+                    </div>
+                    <div class="w-25 text-center">65%</div>
+                </li>
+                <li class="list-group-item d-flex align-items-center p-4">
+                    <div class="w-25">C#</div>
+                    <div class="progress w-50">
+                        <div class="progress-bar progress-bar progress-bar-striped progress-bar-animated"
+                            role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                            style="width: 35%;"></div>
+                    </div>
+                    <div class="w-25 text-center">35%</div>
+                </li>
+                <li class="list-group-item d-flex align-items-center p-4">
+                    <div class="w-25">python</div>
+                    <div class="progress w-50">
+                        <div class="progress-bar progress-bar progress-bar-striped progress-bar-animated"
+                            role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                            style="width: 80%;"></div>
+                    </div>
+                    <div class="w-25 text-center">80%</div>
+                </li>
+                <li class="list-group-item d-flex align-items-center p-4">
+                    <div class="w-25">Java</div>
+                    <div class="progress w-50">
+                        <div class="progress-bar progress-bar progress-bar-striped progress-bar-animated"
+                            role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                            style="width: 45%;"></div>
+                    </div>
+                    <div class="w-25 text-center">45%</div>
+                </li>
+                <li class="list-group-item d-flex align-items-center p-4">
+                    <div class="w-25">MATLAB</div>
+                    <div class="progress w-50">
+                        <div class="progress-bar progress-bar progress-bar-striped progress-bar-animated"
+                            role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                            style="width: 25%;"></div>
+                    </div>
+                    <div class="w-25 text-center">25%</div>
+                </li>
+                <li class="list-group-item d-flex align-items-center p-4">
+                    <div class="w-25">Verilog</div>
+                    <div class="progress w-50">
+                        <div class="progress-bar progress-bar progress-bar-striped progress-bar-animated"
+                            role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                            style="width: 45%;"></div>
+                    </div>
+                    <div class="w-25 text-center">45%</div>
+                </li>
+            </ul>
+
+            <ul class="w-75 mx-auto skill-list">
+                <h2 class="p-4">Circuit</h2>
+                <li class="list-group-item d-flex align-items-center p-4">
+                    <div class="w-25">Arduino</div>
+                    <div class="progress w-50">
+                        <div class="progress-bar progress-bar progress-bar-striped progress-bar-animated"
+                            role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                            style="width: 90%;"></div>
+                    </div>
+                    <div class="w-25 text-center">90%</div>
+                </li>
+                <li class="list-group-item d-flex align-items-center p-4">
+                    <div class="w-25">Raspberry Pi</div>
+                    <div class="progress w-50">
+                        <div class="progress-bar progress-bar progress-bar-striped progress-bar-animated"
+                            role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                            style="width: 80%;"></div>
+                    </div>
+                    <div class="w-25 text-center">80%</div>
+                </li>
+                <li class="list-group-item d-flex align-items-center p-4">
+                    <div class="w-25">STM32F410 Nucleo-64</div>
+                    <div class="progress w-50">
+                        <div class="progress-bar progress-bar progress-bar-striped progress-bar-animated"
+                            role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                            style="width: 35%;"></div>
+                    </div>
+                    <div class="w-25 text-center">50%</div>
+                </li>
+            </ul>
+        </section>
+        <section id="stack-part" class="pt-5" style="min-height: 100%;">
+            <div class="h1 bg-warning p-4 text-white text-center w-100">
+                Skill Stack
+            </div>
+
+            <table class="table w-75 mt-5 m-auto">
+                <thead>
+                    <tr>
+                        <th scope="col">분야</th>
+                        <th scope="col">분류</th>
+                        <th scope="col">스택</th>
+                        <th scope="col">Level</th>
+                        <th scope="col">근거</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" rowspan="10">WEB</th>
+                        <td rowspan="3" style="width: 100px;">Front End</td>
+                        <td>HTML/CSS</td>
+                        <td>🌕🌕🌕🌕🌕</td>
+                        <td>웹페이지 클론 코딩가능</td>
+                    </tr>
+                    <tr>
+                        <td>Bootstrap</td>
+                        <td>🌕🌕🌕🌑🌑</td>
+                        <td>Bootstrap5 기준 Document 참고하여 개발 가능</td>
+                    </tr>
+                    <tr>
+                        <td>Vue.js</td>
+                        <td>🌕🌕🌕🌕🌑</td>
+                        <td>다양한 Web Project 개발 진행</td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="2">Back End</td>
+                        <td>Node.js</td>
+                        <td>🌕🌕🌕🌕🌕</td>
+                        <td>비동기 통신/REST/WEB Server 운영 개발</td>
+                    </tr>
+                    <tr>
+                        <td>MySQL</td>
+                        <td>🌕🌕🌕🌕🌑</td>
+                        <td>활용에 능숙, but DB 성능 개선작업 불가</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th scope="row" rowspan="10">Embedded</th>
+                        <td rowspan="3">Firmware</td>
+                        <td>ARM</td>
+                        <td>🌕🌕🌕🌕🌕</td>
+                        <td>Cortex-M3 / A72 아키텍처 이해 및 개발 경험</td>
+                    </tr>
+                    <tr>
+                        <td>Raspiberry pi</td>
+                        <td>🌕🌕🌕🌕🌑</td>
+                        <td>Reaspberry pi에서 C와 Python으로 Firmware 개발</td>
+                    </tr>
+                    <tr>
+                        <td>NUCLEO-F103RB</td>
+                        <td>🌕🌕🌕🌕🌑</td>
+                        <td>ST사 보드 개발 (Cortex-M3)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="closing-part" class="pt-5" style="min-height: 100%;">
+            <div class="h1 bg-warning p-4 text-white text-center w-100">
+                Closing
+            </div>
+
+            <div class="card mb-3 mt-5 text-center" style="width: 100%;">
+                <img src="./image/closing.jpg" class="card-img-top w-75 mx-auto mt-5" alt="마무리 사진">
+                <div class="card-body">
+                    <h5 class="card-title fs-4 fw-bold">저는 아직 아무것도 보여드리지 않았습니다.<br />SSAFY 과정을 모두 소화해 수료하여, 훌륭한 개발자가
+                        되겠습니다.</h5>
+                    <p class="card-text fs-6 fst-italic">대학교를 졸업하고 취준생이 되어 개발자의 길로 가기엔 막막한 처음...<br />하지만 SSAFY 7th를 발판
+                        삼아 훌륭하게 수료해 목표인 임베디드 개발자로 향해 길이 계속된다!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark text-white text-center p-3">
+        CopyRight &copy; 2022 유연길 All Right Reserved
+    </footer>
+</body>
+
+</html>
